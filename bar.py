@@ -12,6 +12,9 @@ class Bar(object):
         """
 
         self.width = 50
+        if n < self.width:
+            self.width = n
+
         self.n = int(n)
         self.increment = int(self.n / self.width)
 
