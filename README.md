@@ -23,4 +23,4 @@ And 100%:
         [-------------------------------------------------]
 
 
-There are many powerful, neat progress bar packages. I wanted a really simply one for my really simple needs. Besides, I prefer this ascetic aesthetic.
+There are many powerful, neat, progress bar packages. I wanted a super simply one for my simple needs. Besides, I prefer this ascetic aesthetic.
