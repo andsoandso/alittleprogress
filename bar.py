@@ -2,18 +2,16 @@ import sys
 
 
 class Bar(object):
-    def __init__(self, width, n):
+    def __init__(self, n):
         """A little (simple) progress bar.
         
         Parameters
         ---------
-        width : int
-            The width of the progress bar on screen.
         n : int
             The number of total number of interations expected.
         """
 
-        self.width = int(width)
+        self.width = 50
         self.n = int(n)
         self.increment = int(self.n / self.width)
 

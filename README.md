@@ -4,10 +4,9 @@ Usage is simple.
 
         from alittleprogress import Bar
 
-        width = 50 	## Width of the bar on-screen
         N = 10000 	## Number of iterations
 
-        bar = Bar(width, N) ## Instantiates and draws bar edges
+        bar = Bar(N) ## Instantiates and draws bar edges
 
         for i in range(N):
             # Do something here!
