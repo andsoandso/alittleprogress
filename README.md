@@ -15,5 +15,13 @@ Usage is simple.
         
         bar.end() ## Cleans up
 
+Here is what the above progress bar looks like when it is 50% done:
+
+        [-------------------------                        ]
+
+And 100%:
+
+        [-------------------------------------------------]
+
 
 There are many powerful, neat progress bar packages. I wanted a really simply one for my really simple needs. Besides, I prefer this ascetic aesthetic.
