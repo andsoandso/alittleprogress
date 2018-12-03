@@ -19,11 +19,11 @@ class Bar(object):
         self.increment = int(self.n / self.width)
 
         # setup progress bar
-        sys.stdout.write("[{0}]".format(" " * self.width))
+        sys.stdout.write("[{0}]\n".format(" " * self.width))
         sys.stdout.flush()
-        sys.stdout.write("\b" * (self.width + 1)) 
-            ## return to start of line, after '['
-    
+        sys.stdout.write("\b" * (self.width + 1))
+        ## return to start of line, after '['
+
     def update(self, i):
         """Update the progress bar for this iteration?"""
         if (i % self.increment) == 0:
@@ -32,4 +32,3 @@ class Bar(object):
 
     def end(self):
         sys.stdout.write("\n")
-
